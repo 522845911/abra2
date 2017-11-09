@@ -1,0 +1,669 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>118/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 14 20:20:53 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (562 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='abra.ReAlignerOptionsTest.testBamParams()'><b>testBamParams</b><br>Test class: abra.ReAlignerOptionsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReAlignerOptionsTest@67b64c45</td></tr>
+<tr>
+<td title='abra.cadabra.HomopolymerRunTest.testBasic()'><b>testBasic</b><br>Test class: abra.cadabra.HomopolymerRunTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.HomopolymerRunTest@783e6358</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testBeyondMultipleIndels()'><b>testBeyondMultipleIndels</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testBigDel()'><b>testBigDel</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.ChromosomeRegexTest.testChr1()'><b>testChr1</b><br>Test class: abra.ChromosomeRegexTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ChromosomeRegexTest@38082d64</td></tr>
+<tr>
+<td title='abra.ChromosomeRegexTest.testChrX()'><b>testChrX</b><br>Test class: abra.ChromosomeRegexTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ChromosomeRegexTest@38082d64</td></tr>
+<tr>
+<td title='abra.RealignerTest.testCollapseRegions()'><b>testCollapseRegions</b><br>Test class: abra.RealignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.RealignerTest@73f792cf</td></tr>
+<tr>
+<td title='abra.JunctionUtilsTest.testCombineJunctions()'><b>testCombineJunctions</b><br>Test class: abra.JunctionUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.JunctionUtilsTest@2ed94a8b</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testCompare()'><b>testCompare</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.ScoredContigTest.testConvertAndFilter()'><b>testConvertAndFilter</b><br>Test class: abra.ScoredContigTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ScoredContigTest@3d8c7aca</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testDelete()'><b>testDelete</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testDeletion()'><b>testDeletion</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testEndToEnd()'><b>testEndToEnd</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testExactMatch()'><b>testExactMatch</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testExactMatch()'><b>testExactMatch</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testExtendContig()'><b>testExtendContig</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testGetLeadingClips()'><b>testGetLeadingClips</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testGetLeadingClips_empty()'><b>testGetLeadingClips_empty</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testGetMappedReadPortion()'><b>testGetMappedReadPortion</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.JunctionUtilsTest.testGetRegionJunctions()'><b>testGetRegionJunctions</b><br>Test class: abra.JunctionUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.JunctionUtilsTest@2ed94a8b</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatPeriod_HpRun()'><b>testGetRepeatPeriod_HpRun</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatPeriod_NoRepeat()'><b>testGetRepeatPeriod_NoRepeat</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatPeriod_NoRepeat1()'><b>testGetRepeatPeriod_NoRepeat1</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatPeriod_Str1()'><b>testGetRepeatPeriod_Str1</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatPeriod_Str2()'><b>testGetRepeatPeriod_Str2</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatPeriod_Str3()'><b>testGetRepeatPeriod_Str3</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_Homopolymer()'><b>testGetRepeatUnit_Homopolymer</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_NearHomopolymer1()'><b>testGetRepeatUnit_NearHomopolymer1</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_NearHomopolymer2()'><b>testGetRepeatUnit_NearHomopolymer2</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_NearHomopolymer3()'><b>testGetRepeatUnit_NearHomopolymer3</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_NearStr1()'><b>testGetRepeatUnit_NearStr1</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_SingleNt()'><b>testGetRepeatUnit_SingleNt</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_Str1()'><b>testGetRepeatUnit_Str1</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_Str2()'><b>testGetRepeatUnit_Str2</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.cadabra.RepeatUtilsTest.testGetRepeatUnit_Str3()'><b>testGetRepeatUnit_Str3</b><br>Test class: abra.cadabra.RepeatUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.RepeatUtilsTest@2c6a3f77</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testGetTrailingClips()'><b>testGetTrailingClips</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testGetTrailingClips_empty()'><b>testGetTrailingClips_empty</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.ChromosomeRegexTest.testHg19Decoy()'><b>testHg19Decoy</b><br>Test class: abra.ChromosomeRegexTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ChromosomeRegexTest@38082d64</td></tr>
+<tr>
+<td title='abra.ChromosomeRegexTest.testHg19Gl()'><b>testHg19Gl</b><br>Test class: abra.ChromosomeRegexTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ChromosomeRegexTest@38082d64</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testInjectSplice()'><b>testInjectSplice</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testInjectSplices()'><b>testInjectSplices</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testInsert()'><b>testInsert</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testInsert2()'><b>testInsert2</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testInsertion()'><b>testInsertion</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testInsertionAtStart()'><b>testInsertionAtStart</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testInsertionPartialOverlapAtEnd()'><b>testInsertionPartialOverlapAtEnd</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testInsertionPartialOverlapAtStart()'><b>testInsertionPartialOverlapAtStart</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.cadabra.HomopolymerRunTest.testLeading()'><b>testLeading</b><br>Test class: abra.cadabra.HomopolymerRunTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.HomopolymerRunTest@783e6358</td></tr>
+<tr>
+<td title='abra.JunctionUtilsTest.testLoadJunctionsFromGtf()'><b>testLoadJunctionsFromGtf</b><br>Test class: abra.JunctionUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.JunctionUtilsTest@2ed94a8b</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapAmbiguousMatch()'><b>testMapAmbiguousMatch</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapAmbiguousMatchWithMismatches()'><b>testMapAmbiguousMatchWithMismatches</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapExact()'><b>testMapExact</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapFiveMismatches()'><b>testMapFiveMismatches</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapNoSeedMatch()'><b>testMapNoSeedMatch</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapOneMismatch()'><b>testMapOneMismatch</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testMapSixMismatchesIncreasedMismatchRate()'><b>testMapSixMismatchesIncreasedMismatchRate</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.ReadEvaluatorTest.testMapToMultipleContigsSynonymously()'><b>testMapToMultipleContigsSynonymously</b><br>Test class: abra.ReadEvaluatorTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReadEvaluatorTest@180bc464</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testMatchSubset()'><b>testMatchSubset</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testMergeSequences()'><b>testMergeSequences</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testMergeSequences_discordantMismatch()'><b>testMergeSequences_discordantMismatch</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testMergeSequences_multipleHeadHits()'><b>testMergeSequences_multipleHeadHits</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testMergeSequences_preferredMismatch()'><b>testMergeSequences_preferredMismatch</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testMergeSequences_tooManyMismatches()'><b>testMergeSequences_tooManyMismatches</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testMismatches()'><b>testMismatches</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.ReadEvaluatorTest.testMultimapWithinContig()'><b>testMultimapWithinContig</b><br>Test class: abra.ReadEvaluatorTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReadEvaluatorTest@180bc464</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testMultipleIndels()'><b>testMultipleIndels</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.ReAlignerOptionsTest.testNoParams()'><b>testNoParams</b><br>Test class: abra.ReAlignerOptionsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReAlignerOptionsTest@67b64c45</td></tr>
+<tr>
+<td title='abra.cadabra.HomopolymerRunTest.testNone()'><b>testNone</b><br>Test class: abra.cadabra.HomopolymerRunTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.HomopolymerRunTest@783e6358</td></tr>
+<tr>
+<td title='abra.FeatureTest.testOverlaps()'><b>testOverlaps</b><br>Test class: abra.FeatureTest</td>
+<td></td>
+<td>0</td>
+<td>abra.FeatureTest@735f7ae5</td></tr>
+<tr>
+<td title='abra.RealignerTest.testPairJunctions()'><b>testPairJunctions</b><br>Test class: abra.RealignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.RealignerTest@73f792cf</td></tr>
+<tr>
+<td title='abra.RealignerTest.testPairJunctions_cannotAppearInSameContig()'><b>testPairJunctions_cannotAppearInSameContig</b><br>Test class: abra.RealignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.RealignerTest@73f792cf</td></tr>
+<tr>
+<td title='abra.ChromosomeRegexTest.testRandom()'><b>testRandom</b><br>Test class: abra.ChromosomeRegexTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ChromosomeRegexTest@38082d64</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testReadBeyondDeletion()'><b>testReadBeyondDeletion</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testReadBeyondInsertion()'><b>testReadBeyondInsertion</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.MultiSamReaderTest.testReadTwoBams()'><b>testReadTwoBams</b><br>Test class: abra.MultiSamReaderTest</td>
+<td></td>
+<td>0</td>
+<td>abra.MultiSamReaderTest@1324409e</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testRemoveSoftClips_withDeletionAndSoftClipAtEnd()'><b>testRemoveSoftClips_withDeletionAndSoftClipAtEnd</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testRemoveSoftClips_withDeletionAndSoftClipAtStart()'><b>testRemoveSoftClips_withDeletionAndSoftClipAtStart</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testReverseComplement2Mismatches()'><b>testReverseComplement2Mismatches</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testReverseComplementExact()'><b>testReverseComplementExact</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.ReadEvaluatorTest.testSelectBestAlignment()'><b>testSelectBestAlignment</b><br>Test class: abra.ReadEvaluatorTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReadEvaluatorTest@180bc464</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftCigarLeft_basic()'><b>testShiftCigarLeft_basic</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftCigarLeft_complex()'><b>testShiftCigarLeft_complex</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftCigarLeft_insertAtTail()'><b>testShiftCigarLeft_insertAtTail</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftCigarLeft_multipleIndels()'><b>testShiftCigarLeft_multipleIndels</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftCigarLeft_softClipping()'><b>testShiftCigarLeft_softClipping</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftDelLeft()'><b>testShiftDelLeft</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftIndelsLeft()'><b>testShiftIndelsLeft</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.IndelShifterTest.testShiftIndelsLeft_LocalRef()'><b>testShiftIndelsLeft_LocalRef</b><br>Test class: abra.IndelShifterTest</td>
+<td></td>
+<td>0</td>
+<td>abra.IndelShifterTest@5ebec15</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testShortAmbiguousMatch()'><b>testShortAmbiguousMatch</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.SimpleMapperTest.testSimple1Mismatch()'><b>testSimple1Mismatch</b><br>Test class: abra.SimpleMapperTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SimpleMapperTest@246ae04d</td></tr>
+<tr>
+<td title='abra.ReadEvaluatorTest.testSingleAlignmentSingleContig()'><b>testSingleAlignmentSingleContig</b><br>Test class: abra.ReadEvaluatorTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReadEvaluatorTest@180bc464</td></tr>
+<tr>
+<td title='abra.ReadEvaluatorTest.testSingleAlignmentSingleContig_noImprovement()'><b>testSingleAlignmentSingleContig_noImprovement</b><br>Test class: abra.ReadEvaluatorTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReadEvaluatorTest@180bc464</td></tr>
+<tr>
+<td title='abra.ReadEvaluatorTest.testSingleAlignmentSingleContig_reverseComplement()'><b>testSingleAlignmentSingleContig_reverseComplement</b><br>Test class: abra.ReadEvaluatorTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ReadEvaluatorTest@180bc464</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testSkipDeletionAtEnd()'><b>testSkipDeletionAtEnd</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testSkipDeletionAtStart()'><b>testSkipDeletionAtStart</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testSkipDeletionWithinStart()'><b>testSkipDeletionWithinStart</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.CigarUtilsTest.testSkipInsertionAtEnd()'><b>testSkipInsertionAtEnd</b><br>Test class: abra.CigarUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.CigarUtilsTest@668bc3d5</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_deletion()'><b>testSubsetCigar_deletion</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_exact()'><b>testSubsetCigar_exact</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_lessThan1Elem()'><b>testSubsetCigar_lessThan1Elem</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_lessThan1Elem2()'><b>testSubsetCigar_lessThan1Elem2</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_lessThan1Elem3()'><b>testSubsetCigar_lessThan1Elem3</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_lessThanFirstElem()'><b>testSubsetCigar_lessThanFirstElem</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_long()'><b>testSubsetCigar_long</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_skipAndSpan1()'><b>testSubsetCigar_skipAndSpan1</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_skipAndSpan2()'><b>testSubsetCigar_skipAndSpan2</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_skipElem()'><b>testSubsetCigar_skipElem</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_skipElem2()'><b>testSubsetCigar_skipElem2</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanAll1()'><b>testSubsetCigar_spanAll1</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanAll2()'><b>testSubsetCigar_spanAll2</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanAll3()'><b>testSubsetCigar_spanAll3</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanAll4()'><b>testSubsetCigar_spanAll4</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanElems1()'><b>testSubsetCigar_spanElems1</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanElems2()'><b>testSubsetCigar_spanElems2</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.SAMRecordUtilsTest.testSubsetCigar_spanElems3()'><b>testSubsetCigar_spanElems3</b><br>Test class: abra.SAMRecordUtilsTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SAMRecordUtilsTest@4e04a765</td></tr>
+<tr>
+<td title='abra.cadabra.HomopolymerRunTest.testTrailing()'><b>testTrailing</b><br>Test class: abra.cadabra.HomopolymerRunTest</td>
+<td></td>
+<td>0</td>
+<td>abra.cadabra.HomopolymerRunTest@783e6358</td></tr>
+<tr>
+<td title='abra.SemiGlobalAlignerTest.testUnderflowBug()'><b>testUnderflowBug</b><br>Test class: abra.SemiGlobalAlignerTest</td>
+<td></td>
+<td>0</td>
+<td>abra.SemiGlobalAlignerTest@17550481</td></tr>
+<tr>
+<td title='abra.ChromosomeRegexTest.testUnplaced()'><b>testUnplaced</b><br>Test class: abra.ChromosomeRegexTest</td>
+<td></td>
+<td>0</td>
+<td>abra.ChromosomeRegexTest@38082d64</td></tr>
+</table><p>
+</body>
+</html>

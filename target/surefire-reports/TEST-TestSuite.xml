@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="118" failures="0" name="TestSuite" time="0.527" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/mnt/NL200/zhouzhq/project/abra2_test/abra2"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/opt/gridengine/lib/linux-x64:/opt/openmpi/lib:/usr/local/lib64:/usr/local/lib:/usr/lib64:/usr/lib:/lib64:/lib:/opt/python/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-696.1.1.el6.x86_64"/>
+    <property name="user.home" value="/home/zhouzhq"/>
+    <property name="user.timezone" value="Asia/Harbin"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="zhouzhq"/>
+    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-0.b11.el6_9.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="abra.ChromosomeRegexTest" name="testChr1" time="0.007"/>
+  <testcase classname="abra.ChromosomeRegexTest" name="testChrX" time="0"/>
+  <testcase classname="abra.ChromosomeRegexTest" name="testHg19Decoy" time="0"/>
+  <testcase classname="abra.ChromosomeRegexTest" name="testHg19Gl" time="0"/>
+  <testcase classname="abra.ChromosomeRegexTest" name="testRandom" time="0"/>
+  <testcase classname="abra.ChromosomeRegexTest" name="testUnplaced" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testBeyondMultipleIndels" time="0.006"/>
+  <testcase classname="abra.CigarUtilsTest" name="testCompare" time="0.003"/>
+  <testcase classname="abra.CigarUtilsTest" name="testDeletion" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testExactMatch" time="0.001"/>
+  <testcase classname="abra.CigarUtilsTest" name="testExtendContig" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testInjectSplice" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testInjectSplices" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testInsertion" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testInsertionAtStart" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testInsertionPartialOverlapAtEnd" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testInsertionPartialOverlapAtStart" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testMatchSubset" time="0.001"/>
+  <testcase classname="abra.CigarUtilsTest" name="testMultipleIndels" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testReadBeyondDeletion" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testReadBeyondInsertion" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testSkipDeletionAtEnd" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testSkipDeletionAtStart" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testSkipDeletionWithinStart" time="0"/>
+  <testcase classname="abra.CigarUtilsTest" name="testSkipInsertionAtEnd" time="0"/>
+  <testcase classname="abra.FeatureTest" name="testOverlaps" time="0"/>
+  <testcase classname="abra.cadabra.HomopolymerRunTest" name="testBasic" time="0.003"/>
+  <testcase classname="abra.cadabra.HomopolymerRunTest" name="testLeading" time="0"/>
+  <testcase classname="abra.cadabra.HomopolymerRunTest" name="testNone" time="0"/>
+  <testcase classname="abra.cadabra.HomopolymerRunTest" name="testTrailing" time="0"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftCigarLeft_basic" time="0.007"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftCigarLeft_complex" time="0"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftCigarLeft_insertAtTail" time="0"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftCigarLeft_multipleIndels" time="0"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftCigarLeft_softClipping" time="0"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftDelLeft" time="0.003"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftIndelsLeft" time="0.029"/>
+  <testcase classname="abra.IndelShifterTest" name="testShiftIndelsLeft_LocalRef" time="0"/>
+  <testcase classname="abra.JunctionUtilsTest" name="testCombineJunctions" time="0.007"/>
+  <testcase classname="abra.JunctionUtilsTest" name="testGetRegionJunctions" time="0.009"/>
+  <testcase classname="abra.JunctionUtilsTest" name="testLoadJunctionsFromGtf" time="0.007"/>
+  <testcase classname="abra.MultiSamReaderTest" name="testReadTwoBams" time="0.294"/>
+  <testcase classname="abra.ReAlignerOptionsTest" name="testBamParams" time="0.036"/>
+  <testcase classname="abra.ReAlignerOptionsTest" name="testNoParams" time="0.004"/>
+  <testcase classname="abra.ReadEvaluatorTest" name="testMapToMultipleContigsSynonymously" time="0.023"/>
+  <testcase classname="abra.ReadEvaluatorTest" name="testMultimapWithinContig" time="0"/>
+  <testcase classname="abra.ReadEvaluatorTest" name="testSelectBestAlignment" time="0"/>
+  <testcase classname="abra.ReadEvaluatorTest" name="testSingleAlignmentSingleContig" time="0"/>
+  <testcase classname="abra.ReadEvaluatorTest" name="testSingleAlignmentSingleContig_noImprovement" time="0"/>
+  <testcase classname="abra.ReadEvaluatorTest" name="testSingleAlignmentSingleContig_reverseComplement" time="0"/>
+  <testcase classname="abra.RealignerTest" name="testCollapseRegions" time="0"/>
+  <testcase classname="abra.RealignerTest" name="testPairJunctions" time="0.018"/>
+  <testcase classname="abra.RealignerTest" name="testPairJunctions_cannotAppearInSameContig" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatPeriod_HpRun" time="0.003"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatPeriod_NoRepeat" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatPeriod_NoRepeat1" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatPeriod_Str1" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatPeriod_Str2" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatPeriod_Str3" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_Homopolymer" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_NearHomopolymer1" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_NearHomopolymer2" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_NearHomopolymer3" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_NearStr1" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_SingleNt" time="0.001"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_Str1" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_Str2" time="0"/>
+  <testcase classname="abra.cadabra.RepeatUtilsTest" name="testGetRepeatUnit_Str3" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testGetLeadingClips" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testGetLeadingClips_empty" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testGetMappedReadPortion" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testGetTrailingClips" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testGetTrailingClips_empty" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testMergeSequences" time="0.001"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testMergeSequences_discordantMismatch" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testMergeSequences_multipleHeadHits" time="0.001"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testMergeSequences_preferredMismatch" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testMergeSequences_tooManyMismatches" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testRemoveSoftClips_withDeletionAndSoftClipAtEnd" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testRemoveSoftClips_withDeletionAndSoftClipAtStart" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_deletion" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_exact" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_lessThan1Elem" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_lessThan1Elem2" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_lessThan1Elem3" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_lessThanFirstElem" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_long" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_skipAndSpan1" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_skipAndSpan2" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_skipElem" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_skipElem2" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanAll1" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanAll2" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanAll3" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanAll4" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanElems1" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanElems2" time="0"/>
+  <testcase classname="abra.SAMRecordUtilsTest" name="testSubsetCigar_spanElems3" time="0"/>
+  <testcase classname="abra.ScoredContigTest" name="testConvertAndFilter" time="0.004"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testBigDel" time="0.008"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testDelete" time="0"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testEndToEnd" time="0"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testExactMatch" time="0.001"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testInsert" time="0"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testInsert2" time="0.001"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testMismatches" time="0.001"/>
+  <testcase classname="abra.SemiGlobalAlignerTest" name="testUnderflowBug" time="0.045"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapAmbiguousMatch" time="0.001"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapAmbiguousMatchWithMismatches" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapExact" time="0.001"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapFiveMismatches" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapNoSeedMatch" time="0.001"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapOneMismatch" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testMapSixMismatchesIncreasedMismatchRate" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testReverseComplement2Mismatches" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testReverseComplementExact" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testShortAmbiguousMatch" time="0"/>
+  <testcase classname="abra.SimpleMapperTest" name="testSimple1Mismatch" time="0"/>
+</testsuite>

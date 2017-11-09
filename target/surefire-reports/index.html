@@ -1,0 +1,3310 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">118 methods,   118 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReAlignerOptionsTest" hash-for-method="testBamParams">testBamParams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.HomopolymerRunTest" hash-for-method="testBasic">testBasic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testBeyondMultipleIndels">testBeyondMultipleIndels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testBigDel">testBigDel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ChromosomeRegexTest" hash-for-method="testChr1">testChr1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ChromosomeRegexTest" hash-for-method="testChrX">testChrX</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.RealignerTest" hash-for-method="testCollapseRegions">testCollapseRegions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.JunctionUtilsTest" hash-for-method="testCombineJunctions">testCombineJunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testCompare">testCompare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ScoredContigTest" hash-for-method="testConvertAndFilter">testConvertAndFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testDeletion">testDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testEndToEnd">testEndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testExactMatch">testExactMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testExactMatch">testExactMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testExtendContig">testExtendContig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testGetLeadingClips">testGetLeadingClips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testGetLeadingClips_empty">testGetLeadingClips_empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testGetMappedReadPortion">testGetMappedReadPortion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.JunctionUtilsTest" hash-for-method="testGetRegionJunctions">testGetRegionJunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatPeriod_HpRun">testGetRepeatPeriod_HpRun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatPeriod_NoRepeat">testGetRepeatPeriod_NoRepeat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatPeriod_NoRepeat1">testGetRepeatPeriod_NoRepeat1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatPeriod_Str1">testGetRepeatPeriod_Str1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatPeriod_Str2">testGetRepeatPeriod_Str2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatPeriod_Str3">testGetRepeatPeriod_Str3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_Homopolymer">testGetRepeatUnit_Homopolymer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_NearHomopolymer1">testGetRepeatUnit_NearHomopolymer1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_NearHomopolymer2">testGetRepeatUnit_NearHomopolymer2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_NearHomopolymer3">testGetRepeatUnit_NearHomopolymer3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_NearStr1">testGetRepeatUnit_NearStr1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_SingleNt">testGetRepeatUnit_SingleNt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_Str1">testGetRepeatUnit_Str1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_Str2">testGetRepeatUnit_Str2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.RepeatUtilsTest" hash-for-method="testGetRepeatUnit_Str3">testGetRepeatUnit_Str3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testGetTrailingClips">testGetTrailingClips</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testGetTrailingClips_empty">testGetTrailingClips_empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ChromosomeRegexTest" hash-for-method="testHg19Decoy">testHg19Decoy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ChromosomeRegexTest" hash-for-method="testHg19Gl">testHg19Gl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testInjectSplice">testInjectSplice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testInjectSplices">testInjectSplices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testInsert">testInsert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testInsert2">testInsert2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testInsertion">testInsertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testInsertionAtStart">testInsertionAtStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testInsertionPartialOverlapAtEnd">testInsertionPartialOverlapAtEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testInsertionPartialOverlapAtStart">testInsertionPartialOverlapAtStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.HomopolymerRunTest" hash-for-method="testLeading">testLeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.JunctionUtilsTest" hash-for-method="testLoadJunctionsFromGtf">testLoadJunctionsFromGtf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapAmbiguousMatch">testMapAmbiguousMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapAmbiguousMatchWithMismatches">testMapAmbiguousMatchWithMismatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapExact">testMapExact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapFiveMismatches">testMapFiveMismatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapNoSeedMatch">testMapNoSeedMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapOneMismatch">testMapOneMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testMapSixMismatchesIncreasedMismatchRate">testMapSixMismatchesIncreasedMismatchRate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReadEvaluatorTest" hash-for-method="testMapToMultipleContigsSynonymously">testMapToMultipleContigsSynonymously</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testMatchSubset">testMatchSubset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testMergeSequences">testMergeSequences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testMergeSequences_discordantMismatch">testMergeSequences_discordantMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testMergeSequences_multipleHeadHits">testMergeSequences_multipleHeadHits</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testMergeSequences_preferredMismatch">testMergeSequences_preferredMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testMergeSequences_tooManyMismatches">testMergeSequences_tooManyMismatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testMismatches">testMismatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReadEvaluatorTest" hash-for-method="testMultimapWithinContig">testMultimapWithinContig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testMultipleIndels">testMultipleIndels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReAlignerOptionsTest" hash-for-method="testNoParams">testNoParams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.HomopolymerRunTest" hash-for-method="testNone">testNone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.FeatureTest" hash-for-method="testOverlaps">testOverlaps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.RealignerTest" hash-for-method="testPairJunctions">testPairJunctions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.RealignerTest" hash-for-method="testPairJunctions_cannotAppearInSameContig">testPairJunctions_cannotAppearInSameContig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ChromosomeRegexTest" hash-for-method="testRandom">testRandom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testReadBeyondDeletion">testReadBeyondDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testReadBeyondInsertion">testReadBeyondInsertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.MultiSamReaderTest" hash-for-method="testReadTwoBams">testReadTwoBams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testRemoveSoftClips_withDeletionAndSoftClipAtEnd">testRemoveSoftClips_withDeletionAndSoftClipAtEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testRemoveSoftClips_withDeletionAndSoftClipAtStart">testRemoveSoftClips_withDeletionAndSoftClipAtStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testReverseComplement2Mismatches">testReverseComplement2Mismatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testReverseComplementExact">testReverseComplementExact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReadEvaluatorTest" hash-for-method="testSelectBestAlignment">testSelectBestAlignment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftCigarLeft_basic">testShiftCigarLeft_basic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftCigarLeft_complex">testShiftCigarLeft_complex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftCigarLeft_insertAtTail">testShiftCigarLeft_insertAtTail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftCigarLeft_multipleIndels">testShiftCigarLeft_multipleIndels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftCigarLeft_softClipping">testShiftCigarLeft_softClipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftDelLeft">testShiftDelLeft</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftIndelsLeft">testShiftIndelsLeft</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.IndelShifterTest" hash-for-method="testShiftIndelsLeft_LocalRef">testShiftIndelsLeft_LocalRef</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testShortAmbiguousMatch">testShortAmbiguousMatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SimpleMapperTest" hash-for-method="testSimple1Mismatch">testSimple1Mismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReadEvaluatorTest" hash-for-method="testSingleAlignmentSingleContig">testSingleAlignmentSingleContig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReadEvaluatorTest" hash-for-method="testSingleAlignmentSingleContig_noImprovement">testSingleAlignmentSingleContig_noImprovement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ReadEvaluatorTest" hash-for-method="testSingleAlignmentSingleContig_reverseComplement">testSingleAlignmentSingleContig_reverseComplement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testSkipDeletionAtEnd">testSkipDeletionAtEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testSkipDeletionAtStart">testSkipDeletionAtStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testSkipDeletionWithinStart">testSkipDeletionWithinStart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.CigarUtilsTest" hash-for-method="testSkipInsertionAtEnd">testSkipInsertionAtEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_deletion">testSubsetCigar_deletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_exact">testSubsetCigar_exact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_lessThan1Elem">testSubsetCigar_lessThan1Elem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_lessThan1Elem2">testSubsetCigar_lessThan1Elem2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_lessThan1Elem3">testSubsetCigar_lessThan1Elem3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_lessThanFirstElem">testSubsetCigar_lessThanFirstElem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_long">testSubsetCigar_long</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_skipAndSpan1">testSubsetCigar_skipAndSpan1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_skipAndSpan2">testSubsetCigar_skipAndSpan2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_skipElem">testSubsetCigar_skipElem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_skipElem2">testSubsetCigar_skipElem2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanAll1">testSubsetCigar_spanAll1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanAll2">testSubsetCigar_spanAll2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanAll3">testSubsetCigar_spanAll3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanAll4">testSubsetCigar_spanAll4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanElems1">testSubsetCigar_spanElems1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanElems2">testSubsetCigar_spanElems2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SAMRecordUtilsTest" hash-for-method="testSubsetCigar_spanElems3">testSubsetCigar_spanElems3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.cadabra.HomopolymerRunTest" hash-for-method="testTrailing">testTrailing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.SemiGlobalAlignerTest" hash-for-method="testUnderflowBug">testUnderflowBug</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="abra.ChromosomeRegexTest" hash-for-method="testUnplaced">testUnplaced</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.ReAlignerOptionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBamParams">
+                  </a> <!-- testBamParams -->
+                  <span class="method-name">testBamParams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNoParams">
+                  </a> <!-- testNoParams -->
+                  <span class="method-name">testNoParams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.ScoredContigTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertAndFilter">
+                  </a> <!-- testConvertAndFilter -->
+                  <span class="method-name">testConvertAndFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.IndelShifterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftCigarLeft_basic">
+                  </a> <!-- testShiftCigarLeft_basic -->
+                  <span class="method-name">testShiftCigarLeft_basic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftCigarLeft_complex">
+                  </a> <!-- testShiftCigarLeft_complex -->
+                  <span class="method-name">testShiftCigarLeft_complex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftCigarLeft_insertAtTail">
+                  </a> <!-- testShiftCigarLeft_insertAtTail -->
+                  <span class="method-name">testShiftCigarLeft_insertAtTail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftCigarLeft_multipleIndels">
+                  </a> <!-- testShiftCigarLeft_multipleIndels -->
+                  <span class="method-name">testShiftCigarLeft_multipleIndels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftCigarLeft_softClipping">
+                  </a> <!-- testShiftCigarLeft_softClipping -->
+                  <span class="method-name">testShiftCigarLeft_softClipping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftDelLeft">
+                  </a> <!-- testShiftDelLeft -->
+                  <span class="method-name">testShiftDelLeft</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftIndelsLeft">
+                  </a> <!-- testShiftIndelsLeft -->
+                  <span class="method-name">testShiftIndelsLeft</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShiftIndelsLeft_LocalRef">
+                  </a> <!-- testShiftIndelsLeft_LocalRef -->
+                  <span class="method-name">testShiftIndelsLeft_LocalRef</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.CigarUtilsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBeyondMultipleIndels">
+                  </a> <!-- testBeyondMultipleIndels -->
+                  <span class="method-name">testBeyondMultipleIndels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompare">
+                  </a> <!-- testCompare -->
+                  <span class="method-name">testCompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeletion">
+                  </a> <!-- testDeletion -->
+                  <span class="method-name">testDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExactMatch">
+                  </a> <!-- testExactMatch -->
+                  <span class="method-name">testExactMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExtendContig">
+                  </a> <!-- testExtendContig -->
+                  <span class="method-name">testExtendContig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectSplice">
+                  </a> <!-- testInjectSplice -->
+                  <span class="method-name">testInjectSplice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInjectSplices">
+                  </a> <!-- testInjectSplices -->
+                  <span class="method-name">testInjectSplices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertion">
+                  </a> <!-- testInsertion -->
+                  <span class="method-name">testInsertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertionAtStart">
+                  </a> <!-- testInsertionAtStart -->
+                  <span class="method-name">testInsertionAtStart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertionPartialOverlapAtEnd">
+                  </a> <!-- testInsertionPartialOverlapAtEnd -->
+                  <span class="method-name">testInsertionPartialOverlapAtEnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsertionPartialOverlapAtStart">
+                  </a> <!-- testInsertionPartialOverlapAtStart -->
+                  <span class="method-name">testInsertionPartialOverlapAtStart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatchSubset">
+                  </a> <!-- testMatchSubset -->
+                  <span class="method-name">testMatchSubset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultipleIndels">
+                  </a> <!-- testMultipleIndels -->
+                  <span class="method-name">testMultipleIndels</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadBeyondDeletion">
+                  </a> <!-- testReadBeyondDeletion -->
+                  <span class="method-name">testReadBeyondDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadBeyondInsertion">
+                  </a> <!-- testReadBeyondInsertion -->
+                  <span class="method-name">testReadBeyondInsertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkipDeletionAtEnd">
+                  </a> <!-- testSkipDeletionAtEnd -->
+                  <span class="method-name">testSkipDeletionAtEnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkipDeletionAtStart">
+                  </a> <!-- testSkipDeletionAtStart -->
+                  <span class="method-name">testSkipDeletionAtStart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkipDeletionWithinStart">
+                  </a> <!-- testSkipDeletionWithinStart -->
+                  <span class="method-name">testSkipDeletionWithinStart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSkipInsertionAtEnd">
+                  </a> <!-- testSkipInsertionAtEnd -->
+                  <span class="method-name">testSkipInsertionAtEnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.JunctionUtilsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCombineJunctions">
+                  </a> <!-- testCombineJunctions -->
+                  <span class="method-name">testCombineJunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRegionJunctions">
+                  </a> <!-- testGetRegionJunctions -->
+                  <span class="method-name">testGetRegionJunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoadJunctionsFromGtf">
+                  </a> <!-- testLoadJunctionsFromGtf -->
+                  <span class="method-name">testLoadJunctionsFromGtf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.RealignerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCollapseRegions">
+                  </a> <!-- testCollapseRegions -->
+                  <span class="method-name">testCollapseRegions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPairJunctions">
+                  </a> <!-- testPairJunctions -->
+                  <span class="method-name">testPairJunctions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPairJunctions_cannotAppearInSameContig">
+                  </a> <!-- testPairJunctions_cannotAppearInSameContig -->
+                  <span class="method-name">testPairJunctions_cannotAppearInSameContig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.SAMRecordUtilsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLeadingClips">
+                  </a> <!-- testGetLeadingClips -->
+                  <span class="method-name">testGetLeadingClips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLeadingClips_empty">
+                  </a> <!-- testGetLeadingClips_empty -->
+                  <span class="method-name">testGetLeadingClips_empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMappedReadPortion">
+                  </a> <!-- testGetMappedReadPortion -->
+                  <span class="method-name">testGetMappedReadPortion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTrailingClips">
+                  </a> <!-- testGetTrailingClips -->
+                  <span class="method-name">testGetTrailingClips</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTrailingClips_empty">
+                  </a> <!-- testGetTrailingClips_empty -->
+                  <span class="method-name">testGetTrailingClips_empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMergeSequences">
+                  </a> <!-- testMergeSequences -->
+                  <span class="method-name">testMergeSequences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMergeSequences_discordantMismatch">
+                  </a> <!-- testMergeSequences_discordantMismatch -->
+                  <span class="method-name">testMergeSequences_discordantMismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMergeSequences_multipleHeadHits">
+                  </a> <!-- testMergeSequences_multipleHeadHits -->
+                  <span class="method-name">testMergeSequences_multipleHeadHits</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMergeSequences_preferredMismatch">
+                  </a> <!-- testMergeSequences_preferredMismatch -->
+                  <span class="method-name">testMergeSequences_preferredMismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMergeSequences_tooManyMismatches">
+                  </a> <!-- testMergeSequences_tooManyMismatches -->
+                  <span class="method-name">testMergeSequences_tooManyMismatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveSoftClips_withDeletionAndSoftClipAtEnd">
+                  </a> <!-- testRemoveSoftClips_withDeletionAndSoftClipAtEnd -->
+                  <span class="method-name">testRemoveSoftClips_withDeletionAndSoftClipAtEnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemoveSoftClips_withDeletionAndSoftClipAtStart">
+                  </a> <!-- testRemoveSoftClips_withDeletionAndSoftClipAtStart -->
+                  <span class="method-name">testRemoveSoftClips_withDeletionAndSoftClipAtStart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_deletion">
+                  </a> <!-- testSubsetCigar_deletion -->
+                  <span class="method-name">testSubsetCigar_deletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_exact">
+                  </a> <!-- testSubsetCigar_exact -->
+                  <span class="method-name">testSubsetCigar_exact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_lessThan1Elem">
+                  </a> <!-- testSubsetCigar_lessThan1Elem -->
+                  <span class="method-name">testSubsetCigar_lessThan1Elem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_lessThan1Elem2">
+                  </a> <!-- testSubsetCigar_lessThan1Elem2 -->
+                  <span class="method-name">testSubsetCigar_lessThan1Elem2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_lessThan1Elem3">
+                  </a> <!-- testSubsetCigar_lessThan1Elem3 -->
+                  <span class="method-name">testSubsetCigar_lessThan1Elem3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_lessThanFirstElem">
+                  </a> <!-- testSubsetCigar_lessThanFirstElem -->
+                  <span class="method-name">testSubsetCigar_lessThanFirstElem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_long">
+                  </a> <!-- testSubsetCigar_long -->
+                  <span class="method-name">testSubsetCigar_long</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_skipAndSpan1">
+                  </a> <!-- testSubsetCigar_skipAndSpan1 -->
+                  <span class="method-name">testSubsetCigar_skipAndSpan1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_skipAndSpan2">
+                  </a> <!-- testSubsetCigar_skipAndSpan2 -->
+                  <span class="method-name">testSubsetCigar_skipAndSpan2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_skipElem">
+                  </a> <!-- testSubsetCigar_skipElem -->
+                  <span class="method-name">testSubsetCigar_skipElem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_skipElem2">
+                  </a> <!-- testSubsetCigar_skipElem2 -->
+                  <span class="method-name">testSubsetCigar_skipElem2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanAll1">
+                  </a> <!-- testSubsetCigar_spanAll1 -->
+                  <span class="method-name">testSubsetCigar_spanAll1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanAll2">
+                  </a> <!-- testSubsetCigar_spanAll2 -->
+                  <span class="method-name">testSubsetCigar_spanAll2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanAll3">
+                  </a> <!-- testSubsetCigar_spanAll3 -->
+                  <span class="method-name">testSubsetCigar_spanAll3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanAll4">
+                  </a> <!-- testSubsetCigar_spanAll4 -->
+                  <span class="method-name">testSubsetCigar_spanAll4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanElems1">
+                  </a> <!-- testSubsetCigar_spanElems1 -->
+                  <span class="method-name">testSubsetCigar_spanElems1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanElems2">
+                  </a> <!-- testSubsetCigar_spanElems2 -->
+                  <span class="method-name">testSubsetCigar_spanElems2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubsetCigar_spanElems3">
+                  </a> <!-- testSubsetCigar_spanElems3 -->
+                  <span class="method-name">testSubsetCigar_spanElems3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.ChromosomeRegexTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChr1">
+                  </a> <!-- testChr1 -->
+                  <span class="method-name">testChr1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChrX">
+                  </a> <!-- testChrX -->
+                  <span class="method-name">testChrX</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHg19Decoy">
+                  </a> <!-- testHg19Decoy -->
+                  <span class="method-name">testHg19Decoy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHg19Gl">
+                  </a> <!-- testHg19Gl -->
+                  <span class="method-name">testHg19Gl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRandom">
+                  </a> <!-- testRandom -->
+                  <span class="method-name">testRandom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnplaced">
+                  </a> <!-- testUnplaced -->
+                  <span class="method-name">testUnplaced</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.cadabra.HomopolymerRunTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasic">
+                  </a> <!-- testBasic -->
+                  <span class="method-name">testBasic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLeading">
+                  </a> <!-- testLeading -->
+                  <span class="method-name">testLeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNone">
+                  </a> <!-- testNone -->
+                  <span class="method-name">testNone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTrailing">
+                  </a> <!-- testTrailing -->
+                  <span class="method-name">testTrailing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.SemiGlobalAlignerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBigDel">
+                  </a> <!-- testBigDel -->
+                  <span class="method-name">testBigDel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEndToEnd">
+                  </a> <!-- testEndToEnd -->
+                  <span class="method-name">testEndToEnd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExactMatch">
+                  </a> <!-- testExactMatch -->
+                  <span class="method-name">testExactMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsert">
+                  </a> <!-- testInsert -->
+                  <span class="method-name">testInsert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInsert2">
+                  </a> <!-- testInsert2 -->
+                  <span class="method-name">testInsert2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMismatches">
+                  </a> <!-- testMismatches -->
+                  <span class="method-name">testMismatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnderflowBug">
+                  </a> <!-- testUnderflowBug -->
+                  <span class="method-name">testUnderflowBug</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.FeatureTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOverlaps">
+                  </a> <!-- testOverlaps -->
+                  <span class="method-name">testOverlaps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.ReadEvaluatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapToMultipleContigsSynonymously">
+                  </a> <!-- testMapToMultipleContigsSynonymously -->
+                  <span class="method-name">testMapToMultipleContigsSynonymously</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMultimapWithinContig">
+                  </a> <!-- testMultimapWithinContig -->
+                  <span class="method-name">testMultimapWithinContig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectBestAlignment">
+                  </a> <!-- testSelectBestAlignment -->
+                  <span class="method-name">testSelectBestAlignment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSingleAlignmentSingleContig">
+                  </a> <!-- testSingleAlignmentSingleContig -->
+                  <span class="method-name">testSingleAlignmentSingleContig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSingleAlignmentSingleContig_noImprovement">
+                  </a> <!-- testSingleAlignmentSingleContig_noImprovement -->
+                  <span class="method-name">testSingleAlignmentSingleContig_noImprovement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSingleAlignmentSingleContig_reverseComplement">
+                  </a> <!-- testSingleAlignmentSingleContig_reverseComplement -->
+                  <span class="method-name">testSingleAlignmentSingleContig_reverseComplement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.MultiSamReaderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReadTwoBams">
+                  </a> <!-- testReadTwoBams -->
+                  <span class="method-name">testReadTwoBams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.cadabra.RepeatUtilsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatPeriod_HpRun">
+                  </a> <!-- testGetRepeatPeriod_HpRun -->
+                  <span class="method-name">testGetRepeatPeriod_HpRun</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatPeriod_NoRepeat">
+                  </a> <!-- testGetRepeatPeriod_NoRepeat -->
+                  <span class="method-name">testGetRepeatPeriod_NoRepeat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatPeriod_NoRepeat1">
+                  </a> <!-- testGetRepeatPeriod_NoRepeat1 -->
+                  <span class="method-name">testGetRepeatPeriod_NoRepeat1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatPeriod_Str1">
+                  </a> <!-- testGetRepeatPeriod_Str1 -->
+                  <span class="method-name">testGetRepeatPeriod_Str1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatPeriod_Str2">
+                  </a> <!-- testGetRepeatPeriod_Str2 -->
+                  <span class="method-name">testGetRepeatPeriod_Str2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatPeriod_Str3">
+                  </a> <!-- testGetRepeatPeriod_Str3 -->
+                  <span class="method-name">testGetRepeatPeriod_Str3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_Homopolymer">
+                  </a> <!-- testGetRepeatUnit_Homopolymer -->
+                  <span class="method-name">testGetRepeatUnit_Homopolymer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_NearHomopolymer1">
+                  </a> <!-- testGetRepeatUnit_NearHomopolymer1 -->
+                  <span class="method-name">testGetRepeatUnit_NearHomopolymer1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_NearHomopolymer2">
+                  </a> <!-- testGetRepeatUnit_NearHomopolymer2 -->
+                  <span class="method-name">testGetRepeatUnit_NearHomopolymer2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_NearHomopolymer3">
+                  </a> <!-- testGetRepeatUnit_NearHomopolymer3 -->
+                  <span class="method-name">testGetRepeatUnit_NearHomopolymer3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_NearStr1">
+                  </a> <!-- testGetRepeatUnit_NearStr1 -->
+                  <span class="method-name">testGetRepeatUnit_NearStr1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_SingleNt">
+                  </a> <!-- testGetRepeatUnit_SingleNt -->
+                  <span class="method-name">testGetRepeatUnit_SingleNt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_Str1">
+                  </a> <!-- testGetRepeatUnit_Str1 -->
+                  <span class="method-name">testGetRepeatUnit_Str1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_Str2">
+                  </a> <!-- testGetRepeatUnit_Str2 -->
+                  <span class="method-name">testGetRepeatUnit_Str2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetRepeatUnit_Str3">
+                  </a> <!-- testGetRepeatUnit_Str3 -->
+                  <span class="method-name">testGetRepeatUnit_Str3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abra.SimpleMapperTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapAmbiguousMatch">
+                  </a> <!-- testMapAmbiguousMatch -->
+                  <span class="method-name">testMapAmbiguousMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapAmbiguousMatchWithMismatches">
+                  </a> <!-- testMapAmbiguousMatchWithMismatches -->
+                  <span class="method-name">testMapAmbiguousMatchWithMismatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapExact">
+                  </a> <!-- testMapExact -->
+                  <span class="method-name">testMapExact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapFiveMismatches">
+                  </a> <!-- testMapFiveMismatches -->
+                  <span class="method-name">testMapFiveMismatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapNoSeedMatch">
+                  </a> <!-- testMapNoSeedMatch -->
+                  <span class="method-name">testMapNoSeedMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapOneMismatch">
+                  </a> <!-- testMapOneMismatch -->
+                  <span class="method-name">testMapOneMismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMapSixMismatchesIncreasedMismatchRate">
+                  </a> <!-- testMapSixMismatchesIncreasedMismatchRate -->
+                  <span class="method-name">testMapSixMismatchesIncreasedMismatchRate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReverseComplement2Mismatches">
+                  </a> <!-- testReverseComplement2Mismatches -->
+                  <span class="method-name">testReverseComplement2Mismatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReverseComplementExact">
+                  </a> <!-- testReverseComplementExact -->
+                  <span class="method-name">testReverseComplementExact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShortAmbiguousMatch">
+                  </a> <!-- testShortAmbiguousMatch -->
+                  <span class="method-name">testShortAmbiguousMatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimple1Mismatch">
+                  </a> <!-- testSimple1Mismatch -->
+                  <span class="method-name">testSimple1Mismatch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;abra.SemiGlobalAlignerTest&quot;/&gt;
+      &lt;class name=&quot;abra.ChromosomeRegexTest&quot;/&gt;
+      &lt;class name=&quot;abra.SimpleMapperTest&quot;/&gt;
+      &lt;class name=&quot;abra.cadabra.HomopolymerRunTest&quot;/&gt;
+      &lt;class name=&quot;abra.cadabra.RepeatUtilsTest&quot;/&gt;
+      &lt;class name=&quot;abra.IndelShifterTest&quot;/&gt;
+      &lt;class name=&quot;abra.FeatureTest&quot;/&gt;
+      &lt;class name=&quot;abra.RealignerTest&quot;/&gt;
+      &lt;class name=&quot;abra.ReadEvaluatorTest&quot;/&gt;
+      &lt;class name=&quot;abra.MultiSamReaderTest&quot;/&gt;
+      &lt;class name=&quot;abra.CigarUtilsTest&quot;/&gt;
+      &lt;class name=&quot;abra.SAMRecordUtilsTest&quot;/&gt;
+      &lt;class name=&quot;abra.ReAlignerOptionsTest&quot;/&gt;
+      &lt;class name=&quot;abra.JunctionUtilsTest&quot;/&gt;
+      &lt;class name=&quot;abra.ScoredContigTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">unit</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBamParams</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBasic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBeyondMultipleIndels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBigDel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testChr1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testChrX</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCollapseRegions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCombineJunctions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCompare</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testConvertAndFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDelete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeletion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEndToEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testExactMatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testExtendContig</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetLeadingClips</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetLeadingClips_empty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetMappedReadPortion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRegionJunctions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatPeriod_HpRun</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatPeriod_NoRepeat</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatPeriod_NoRepeat1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatPeriod_Str1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatPeriod_Str2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatPeriod_Str3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_Homopolymer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_NearHomopolymer1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_NearHomopolymer2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_NearHomopolymer3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_NearStr1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_SingleNt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_Str1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_Str2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetRepeatUnit_Str3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetTrailingClips</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetTrailingClips_empty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHg19Decoy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHg19Gl</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInjectSplice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInjectSplices</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInsert</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInsert2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInsertion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInsertionAtStart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInsertionPartialOverlapAtEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testInsertionPartialOverlapAtStart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLeading</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoadJunctionsFromGtf</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapAmbiguousMatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapAmbiguousMatchWithMismatches</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapExact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapFiveMismatches</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapNoSeedMatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapOneMismatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapSixMismatchesIncreasedMismatchRate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMapToMultipleContigsSynonymously</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMatchSubset</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMergeSequences</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMergeSequences_discordantMismatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMergeSequences_multipleHeadHits</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMergeSequences_preferredMismatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMergeSequences_tooManyMismatches</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMismatches</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMultimapWithinContig</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMultipleIndels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNoParams</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOverlaps</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPairJunctions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPairJunctions_cannotAppearInSameContig</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRandom</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testReadBeyondDeletion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testReadBeyondInsertion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testReadTwoBams</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRemoveSoftClips_withDeletionAndSoftClipAtEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRemoveSoftClips_withDeletionAndSoftClipAtStart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testReverseComplement2Mismatches</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testReverseComplementExact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSelectBestAlignment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftCigarLeft_basic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftCigarLeft_complex</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftCigarLeft_insertAtTail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftCigarLeft_multipleIndels</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftCigarLeft_softClipping</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftDelLeft</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftIndelsLeft</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShiftIndelsLeft_LocalRef</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testShortAmbiguousMatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSimple1Mismatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSingleAlignmentSingleContig</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSingleAlignmentSingleContig_noImprovement</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSingleAlignmentSingleContig_reverseComplement</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSkipDeletionAtEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSkipDeletionAtStart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSkipDeletionWithinStart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSkipInsertionAtEnd</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_deletion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_exact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_lessThan1Elem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_lessThan1Elem2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_lessThan1Elem3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_lessThanFirstElem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_long</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_skipAndSpan1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_skipAndSpan2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_skipElem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_skipElem2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanAll1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanAll2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanAll3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanAll4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanElems1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanElems2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSubsetCigar_spanElems3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTrailing</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUnderflowBug</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUnplaced</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(118);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testReadTwoBams')
+data.setCell(0, 2, 'abra.MultiSamReaderTest')
+data.setCell(0, 3, 294);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUnderflowBug')
+data.setCell(1, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(1, 3, 45);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testBamParams')
+data.setCell(2, 2, 'abra.ReAlignerOptionsTest')
+data.setCell(2, 3, 34);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testShiftIndelsLeft')
+data.setCell(3, 2, 'abra.IndelShifterTest')
+data.setCell(3, 3, 28);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMapToMultipleContigsSynonymously')
+data.setCell(4, 2, 'abra.ReadEvaluatorTest')
+data.setCell(4, 3, 24);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPairJunctions')
+data.setCell(5, 2, 'abra.RealignerTest')
+data.setCell(5, 3, 18);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetRegionJunctions')
+data.setCell(6, 2, 'abra.JunctionUtilsTest')
+data.setCell(6, 3, 9);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testBigDel')
+data.setCell(7, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(7, 3, 8);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLoadJunctionsFromGtf')
+data.setCell(8, 2, 'abra.JunctionUtilsTest')
+data.setCell(8, 3, 7);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCombineJunctions')
+data.setCell(9, 2, 'abra.JunctionUtilsTest')
+data.setCell(9, 3, 7);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testBeyondMultipleIndels')
+data.setCell(10, 2, 'abra.CigarUtilsTest')
+data.setCell(10, 3, 7);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testChr1')
+data.setCell(11, 2, 'abra.ChromosomeRegexTest')
+data.setCell(11, 3, 7);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testShiftCigarLeft_basic')
+data.setCell(12, 2, 'abra.IndelShifterTest')
+data.setCell(12, 3, 6);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testNoParams')
+data.setCell(13, 2, 'abra.ReAlignerOptionsTest')
+data.setCell(13, 3, 5);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testConvertAndFilter')
+data.setCell(14, 2, 'abra.ScoredContigTest')
+data.setCell(14, 3, 4);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testShiftDelLeft')
+data.setCell(15, 2, 'abra.IndelShifterTest')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCompare')
+data.setCell(16, 2, 'abra.CigarUtilsTest')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testBasic')
+data.setCell(17, 2, 'abra.cadabra.HomopolymerRunTest')
+data.setCell(17, 3, 3);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGetRepeatPeriod_HpRun')
+data.setCell(18, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(18, 3, 3);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetLeadingClips_empty')
+data.setCell(19, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testHg19Decoy')
+data.setCell(20, 2, 'abra.ChromosomeRegexTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMapSixMismatchesIncreasedMismatchRate')
+data.setCell(21, 2, 'abra.SimpleMapperTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMapExact')
+data.setCell(22, 2, 'abra.SimpleMapperTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSubsetCigar_lessThanFirstElem')
+data.setCell(23, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCollapseRegions')
+data.setCell(24, 2, 'abra.RealignerTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testSelectBestAlignment')
+data.setCell(25, 2, 'abra.ReadEvaluatorTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testSkipDeletionAtEnd')
+data.setCell(26, 2, 'abra.CigarUtilsTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testMismatches')
+data.setCell(27, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testShiftCigarLeft_softClipping')
+data.setCell(28, 2, 'abra.IndelShifterTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testInjectSplices')
+data.setCell(29, 2, 'abra.CigarUtilsTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testSkipDeletionWithinStart')
+data.setCell(30, 2, 'abra.CigarUtilsTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testReverseComplementExact')
+data.setCell(31, 2, 'abra.SimpleMapperTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testMapNoSeedMatch')
+data.setCell(32, 2, 'abra.SimpleMapperTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testUnplaced')
+data.setCell(33, 2, 'abra.ChromosomeRegexTest')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testInsert2')
+data.setCell(34, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testMergeSequences')
+data.setCell(35, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testEndToEnd')
+data.setCell(36, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testGetRepeatUnit_NearHomopolymer1')
+data.setCell(37, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testSubsetCigar_skipAndSpan2')
+data.setCell(38, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSubsetCigar_spanElems2')
+data.setCell(39, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testGetTrailingClips')
+data.setCell(40, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testShiftIndelsLeft_LocalRef')
+data.setCell(41, 2, 'abra.IndelShifterTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetRepeatPeriod_Str2')
+data.setCell(42, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testShortAmbiguousMatch')
+data.setCell(43, 2, 'abra.SimpleMapperTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testInjectSplice')
+data.setCell(44, 2, 'abra.CigarUtilsTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testGetRepeatUnit_Str1')
+data.setCell(45, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testOverlaps')
+data.setCell(46, 2, 'abra.FeatureTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testChrX')
+data.setCell(47, 2, 'abra.ChromosomeRegexTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testGetTrailingClips_empty')
+data.setCell(48, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testNone')
+data.setCell(49, 2, 'abra.cadabra.HomopolymerRunTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testGetRepeatPeriod_Str3')
+data.setCell(50, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testRandom')
+data.setCell(51, 2, 'abra.ChromosomeRegexTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testInsertionPartialOverlapAtEnd')
+data.setCell(52, 2, 'abra.CigarUtilsTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testShiftCigarLeft_complex')
+data.setCell(53, 2, 'abra.IndelShifterTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testSingleAlignmentSingleContig')
+data.setCell(54, 2, 'abra.ReadEvaluatorTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testSingleAlignmentSingleContig_reverseComplement')
+data.setCell(55, 2, 'abra.ReadEvaluatorTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testSkipInsertionAtEnd')
+data.setCell(56, 2, 'abra.CigarUtilsTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testSubsetCigar_spanAll1')
+data.setCell(57, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSubsetCigar_skipElem')
+data.setCell(58, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testShiftCigarLeft_insertAtTail')
+data.setCell(59, 2, 'abra.IndelShifterTest')
+data.setCell(59, 3, 0);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testReadBeyondDeletion')
+data.setCell(60, 2, 'abra.CigarUtilsTest')
+data.setCell(60, 3, 0);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testMapAmbiguousMatchWithMismatches')
+data.setCell(61, 2, 'abra.SimpleMapperTest')
+data.setCell(61, 3, 0);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testSubsetCigar_lessThan1Elem3')
+data.setCell(62, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(62, 3, 0);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testSubsetCigar_spanAll3')
+data.setCell(63, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(63, 3, 0);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testRemoveSoftClips_withDeletionAndSoftClipAtStart')
+data.setCell(64, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(64, 3, 0);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testGetRepeatPeriod_NoRepeat')
+data.setCell(65, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(65, 3, 0);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testSubsetCigar_spanElems1')
+data.setCell(66, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(66, 3, 0);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testMergeSequences_multipleHeadHits')
+data.setCell(67, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(67, 3, 0);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'testDelete')
+data.setCell(68, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testDeletion')
+data.setCell(69, 2, 'abra.CigarUtilsTest')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testSingleAlignmentSingleContig_noImprovement')
+data.setCell(70, 2, 'abra.ReadEvaluatorTest')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testMapAmbiguousMatch')
+data.setCell(71, 2, 'abra.SimpleMapperTest')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'testMultipleIndels')
+data.setCell(72, 2, 'abra.CigarUtilsTest')
+data.setCell(72, 3, 0);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'testGetRepeatUnit_NearHomopolymer2')
+data.setCell(73, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(73, 3, 0);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'testRemoveSoftClips_withDeletionAndSoftClipAtEnd')
+data.setCell(74, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(74, 3, 0);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'testInsertion')
+data.setCell(75, 2, 'abra.CigarUtilsTest')
+data.setCell(75, 3, 0);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'testTrailing')
+data.setCell(76, 2, 'abra.cadabra.HomopolymerRunTest')
+data.setCell(76, 3, 0);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'testSkipDeletionAtStart')
+data.setCell(77, 2, 'abra.CigarUtilsTest')
+data.setCell(77, 3, 0);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'testMergeSequences_tooManyMismatches')
+data.setCell(78, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(78, 3, 0);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'testMapOneMismatch')
+data.setCell(79, 2, 'abra.SimpleMapperTest')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'testReverseComplement2Mismatches')
+data.setCell(80, 2, 'abra.SimpleMapperTest')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'testGetRepeatUnit_NearStr1')
+data.setCell(81, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(81, 3, 0);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'testExtendContig')
+data.setCell(82, 2, 'abra.CigarUtilsTest')
+data.setCell(82, 3, 0);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'testMergeSequences_preferredMismatch')
+data.setCell(83, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(83, 3, 0);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'testMatchSubset')
+data.setCell(84, 2, 'abra.CigarUtilsTest')
+data.setCell(84, 3, 0);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'testGetRepeatUnit_SingleNt')
+data.setCell(85, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(85, 3, 0);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'testSubsetCigar_spanElems3')
+data.setCell(86, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(86, 3, 0);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'testInsertionAtStart')
+data.setCell(87, 2, 'abra.CigarUtilsTest')
+data.setCell(87, 3, 0);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'testSubsetCigar_exact')
+data.setCell(88, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(88, 3, 0);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'testGetMappedReadPortion')
+data.setCell(89, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(89, 3, 0);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'testMapFiveMismatches')
+data.setCell(90, 2, 'abra.SimpleMapperTest')
+data.setCell(90, 3, 0);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'testSimple1Mismatch')
+data.setCell(91, 2, 'abra.SimpleMapperTest')
+data.setCell(91, 3, 0);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'testReadBeyondInsertion')
+data.setCell(92, 2, 'abra.CigarUtilsTest')
+data.setCell(92, 3, 0);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'testSubsetCigar_skipElem2')
+data.setCell(93, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(93, 3, 0);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'testGetRepeatPeriod_Str1')
+data.setCell(94, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(94, 3, 0);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'testSubsetCigar_lessThan1Elem2')
+data.setCell(95, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(95, 3, 0);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'testPairJunctions_cannotAppearInSameContig')
+data.setCell(96, 2, 'abra.RealignerTest')
+data.setCell(96, 3, 0);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'testGetLeadingClips')
+data.setCell(97, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(97, 3, 0);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'testSubsetCigar_spanAll2')
+data.setCell(98, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(98, 3, 0);
+data.setCell(99, 0, 99)
+data.setCell(99, 1, 'testSubsetCigar_long')
+data.setCell(99, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(99, 3, 0);
+data.setCell(100, 0, 100)
+data.setCell(100, 1, 'testInsertionPartialOverlapAtStart')
+data.setCell(100, 2, 'abra.CigarUtilsTest')
+data.setCell(100, 3, 0);
+data.setCell(101, 0, 101)
+data.setCell(101, 1, 'testSubsetCigar_deletion')
+data.setCell(101, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(101, 3, 0);
+data.setCell(102, 0, 102)
+data.setCell(102, 1, 'testGetRepeatPeriod_NoRepeat1')
+data.setCell(102, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(102, 3, 0);
+data.setCell(103, 0, 103)
+data.setCell(103, 1, 'testExactMatch')
+data.setCell(103, 2, 'abra.CigarUtilsTest')
+data.setCell(103, 3, 0);
+data.setCell(104, 0, 104)
+data.setCell(104, 1, 'testGetRepeatUnit_Homopolymer')
+data.setCell(104, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(104, 3, 0);
+data.setCell(105, 0, 105)
+data.setCell(105, 1, 'testGetRepeatUnit_Str3')
+data.setCell(105, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(105, 3, 0);
+data.setCell(106, 0, 106)
+data.setCell(106, 1, 'testShiftCigarLeft_multipleIndels')
+data.setCell(106, 2, 'abra.IndelShifterTest')
+data.setCell(106, 3, 0);
+data.setCell(107, 0, 107)
+data.setCell(107, 1, 'testGetRepeatUnit_Str2')
+data.setCell(107, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(107, 3, 0);
+data.setCell(108, 0, 108)
+data.setCell(108, 1, 'testInsert')
+data.setCell(108, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(108, 3, 0);
+data.setCell(109, 0, 109)
+data.setCell(109, 1, 'testLeading')
+data.setCell(109, 2, 'abra.cadabra.HomopolymerRunTest')
+data.setCell(109, 3, 0);
+data.setCell(110, 0, 110)
+data.setCell(110, 1, 'testExactMatch')
+data.setCell(110, 2, 'abra.SemiGlobalAlignerTest')
+data.setCell(110, 3, 0);
+data.setCell(111, 0, 111)
+data.setCell(111, 1, 'testGetRepeatUnit_NearHomopolymer3')
+data.setCell(111, 2, 'abra.cadabra.RepeatUtilsTest')
+data.setCell(111, 3, 0);
+data.setCell(112, 0, 112)
+data.setCell(112, 1, 'testHg19Gl')
+data.setCell(112, 2, 'abra.ChromosomeRegexTest')
+data.setCell(112, 3, 0);
+data.setCell(113, 0, 113)
+data.setCell(113, 1, 'testMultimapWithinContig')
+data.setCell(113, 2, 'abra.ReadEvaluatorTest')
+data.setCell(113, 3, 0);
+data.setCell(114, 0, 114)
+data.setCell(114, 1, 'testSubsetCigar_skipAndSpan1')
+data.setCell(114, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(114, 3, 0);
+data.setCell(115, 0, 115)
+data.setCell(115, 1, 'testSubsetCigar_spanAll4')
+data.setCell(115, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(115, 3, 0);
+data.setCell(116, 0, 116)
+data.setCell(116, 1, 'testMergeSequences_discordantMismatch')
+data.setCell(116, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(116, 3, 0);
+data.setCell(117, 0, 117)
+data.setCell(117, 1, 'testSubsetCigar_lessThan1Elem')
+data.setCell(117, 2, 'abra.SAMRecordUtilsTest')
+data.setCell(117, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 535 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.ChromosomeRegexTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChr1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testChrX</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHg19Decoy</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHg19Gl</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRandom</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUnplaced</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.CigarUtilsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBeyondMultipleIndels</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCompare</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeletion</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testExactMatch</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testExtendContig</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInjectSplice</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInjectSplices</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertion</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertionAtStart</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertionPartialOverlapAtEnd</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInsertionPartialOverlapAtStart</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMatchSubset</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultipleIndels</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReadBeyondDeletion</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testReadBeyondInsertion</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSkipDeletionAtEnd</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSkipDeletionAtStart</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSkipDeletionWithinStart</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSkipInsertionAtEnd</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.FeatureTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testOverlaps</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.cadabra.HomopolymerRunTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBasic</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLeading</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNone</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTrailing</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.IndelShifterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testShiftCigarLeft_basic</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftCigarLeft_complex</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftCigarLeft_insertAtTail</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftCigarLeft_multipleIndels</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftCigarLeft_softClipping</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftDelLeft</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftIndelsLeft</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShiftIndelsLeft_LocalRef</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.JunctionUtilsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCombineJunctions</span>
+                <span class="method-start">72 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRegionJunctions</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoadJunctionsFromGtf</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.MultiSamReaderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testReadTwoBams</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.ReAlignerOptionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBamParams</span>
+                <span class="method-start">389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNoParams</span>
+                <span class="method-start">423 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.ReadEvaluatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMapToMultipleContigsSynonymously</span>
+                <span class="method-start">428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMultimapWithinContig</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectBestAlignment</span>
+                <span class="method-start">452 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSingleAlignmentSingleContig</span>
+                <span class="method-start">453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSingleAlignmentSingleContig_noImprovement</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSingleAlignmentSingleContig_reverseComplement</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.RealignerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCollapseRegions</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPairJunctions</span>
+                <span class="method-start">455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPairJunctions_cannotAppearInSameContig</span>
+                <span class="method-start">473 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.cadabra.RepeatUtilsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatPeriod_HpRun</span>
+                <span class="method-start">473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatPeriod_NoRepeat</span>
+                <span class="method-start">476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatPeriod_NoRepeat1</span>
+                <span class="method-start">477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatPeriod_Str1</span>
+                <span class="method-start">477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatPeriod_Str2</span>
+                <span class="method-start">477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatPeriod_Str3</span>
+                <span class="method-start">477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_Homopolymer</span>
+                <span class="method-start">477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_NearHomopolymer1</span>
+                <span class="method-start">477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_NearHomopolymer2</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_NearHomopolymer3</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_NearStr1</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_SingleNt</span>
+                <span class="method-start">478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_Str1</span>
+                <span class="method-start">479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_Str2</span>
+                <span class="method-start">479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetRepeatUnit_Str3</span>
+                <span class="method-start">479 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.SAMRecordUtilsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetLeadingClips</span>
+                <span class="method-start">479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLeadingClips_empty</span>
+                <span class="method-start">479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMappedReadPortion</span>
+                <span class="method-start">480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTrailingClips</span>
+                <span class="method-start">480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTrailingClips_empty</span>
+                <span class="method-start">480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMergeSequences</span>
+                <span class="method-start">480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMergeSequences_discordantMismatch</span>
+                <span class="method-start">481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMergeSequences_multipleHeadHits</span>
+                <span class="method-start">481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMergeSequences_preferredMismatch</span>
+                <span class="method-start">482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMergeSequences_tooManyMismatches</span>
+                <span class="method-start">482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveSoftClips_withDeletionAndSoftClipAtEnd</span>
+                <span class="method-start">482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRemoveSoftClips_withDeletionAndSoftClipAtStart</span>
+                <span class="method-start">482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_deletion</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_exact</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_lessThan1Elem</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_lessThan1Elem2</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_lessThan1Elem3</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_lessThanFirstElem</span>
+                <span class="method-start">483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_long</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_skipAndSpan1</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_skipAndSpan2</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_skipElem</span>
+                <span class="method-start">485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_skipElem2</span>
+                <span class="method-start">485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanAll1</span>
+                <span class="method-start">485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanAll2</span>
+                <span class="method-start">485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanAll3</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanAll4</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanElems1</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanElems2</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubsetCigar_spanElems3</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.ScoredContigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testConvertAndFilter</span>
+                <span class="method-start">486 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.SemiGlobalAlignerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBigDel</span>
+                <span class="method-start">491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEndToEnd</span>
+                <span class="method-start">499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExactMatch</span>
+                <span class="method-start">500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsert</span>
+                <span class="method-start">501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInsert2</span>
+                <span class="method-start">501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMismatches</span>
+                <span class="method-start">502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUnderflowBug</span>
+                <span class="method-start">503 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abra.SimpleMapperTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMapAmbiguousMatch</span>
+                <span class="method-start">548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMapAmbiguousMatchWithMismatches</span>
+                <span class="method-start">549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMapExact</span>
+                <span class="method-start">549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMapFiveMismatches</span>
+                <span class="method-start">550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMapNoSeedMatch</span>
+                <span class="method-start">550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMapOneMismatch</span>
+                <span class="method-start">551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMapSixMismatchesIncreasedMismatchRate</span>
+                <span class="method-start">551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testReverseComplement2Mismatches</span>
+                <span class="method-start">552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testReverseComplementExact</span>
+                <span class="method-start">552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShortAmbiguousMatch</span>
+                <span class="method-start">553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSimple1Mismatch</span>
+                <span class="method-start">553 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

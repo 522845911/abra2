@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="118" passed="118">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="562" started-at="2017-10-14T12:20:53Z" finished-at="2017-10-14T12:20:53Z">
+    <groups>
+      <group name="unit">
+        <method signature="ChromosomeRegexTest.testChr1()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testChr1" class="abra.ChromosomeRegexTest"/>
+        <method signature="ChromosomeRegexTest.testChrX()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testChrX" class="abra.ChromosomeRegexTest"/>
+        <method signature="ChromosomeRegexTest.testHg19Decoy()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testHg19Decoy" class="abra.ChromosomeRegexTest"/>
+        <method signature="ChromosomeRegexTest.testHg19Gl()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testHg19Gl" class="abra.ChromosomeRegexTest"/>
+        <method signature="ChromosomeRegexTest.testRandom()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testRandom" class="abra.ChromosomeRegexTest"/>
+        <method signature="ChromosomeRegexTest.testUnplaced()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testUnplaced" class="abra.ChromosomeRegexTest"/>
+        <method signature="CigarUtilsTest.testBeyondMultipleIndels()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testBeyondMultipleIndels" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testCompare()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testCompare" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testDeletion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testDeletion" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testExactMatch()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testExactMatch" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testExtendContig()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testExtendContig" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testInjectSplice()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInjectSplice" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testInjectSplices()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInjectSplices" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testInsertion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertion" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testInsertionAtStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertionAtStart" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testInsertionPartialOverlapAtEnd()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertionPartialOverlapAtEnd" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testInsertionPartialOverlapAtStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertionPartialOverlapAtStart" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testMatchSubset()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testMatchSubset" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testMultipleIndels()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testMultipleIndels" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testReadBeyondDeletion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testReadBeyondDeletion" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testReadBeyondInsertion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testReadBeyondInsertion" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testSkipDeletionAtEnd()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipDeletionAtEnd" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testSkipDeletionAtStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipDeletionAtStart" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testSkipDeletionWithinStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipDeletionWithinStart" class="abra.CigarUtilsTest"/>
+        <method signature="CigarUtilsTest.testSkipInsertionAtEnd()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipInsertionAtEnd" class="abra.CigarUtilsTest"/>
+        <method signature="FeatureTest.testOverlaps()[pri:0, instance:abra.FeatureTest@735f7ae5]" name="testOverlaps" class="abra.FeatureTest"/>
+        <method signature="HomopolymerRunTest.testBasic()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testBasic" class="abra.cadabra.HomopolymerRunTest"/>
+        <method signature="HomopolymerRunTest.testLeading()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testLeading" class="abra.cadabra.HomopolymerRunTest"/>
+        <method signature="HomopolymerRunTest.testNone()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testNone" class="abra.cadabra.HomopolymerRunTest"/>
+        <method signature="HomopolymerRunTest.testTrailing()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testTrailing" class="abra.cadabra.HomopolymerRunTest"/>
+        <method signature="IndelShifterTest.testShiftCigarLeft_basic()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_basic" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftCigarLeft_complex()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_complex" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftCigarLeft_insertAtTail()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_insertAtTail" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftCigarLeft_multipleIndels()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_multipleIndels" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftCigarLeft_softClipping()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_softClipping" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftDelLeft()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftDelLeft" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftIndelsLeft()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftIndelsLeft" class="abra.IndelShifterTest"/>
+        <method signature="IndelShifterTest.testShiftIndelsLeft_LocalRef()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftIndelsLeft_LocalRef" class="abra.IndelShifterTest"/>
+        <method signature="JunctionUtilsTest.testCombineJunctions()[pri:0, instance:abra.JunctionUtilsTest@2ed94a8b]" name="testCombineJunctions" class="abra.JunctionUtilsTest"/>
+        <method signature="JunctionUtilsTest.testGetRegionJunctions()[pri:0, instance:abra.JunctionUtilsTest@2ed94a8b]" name="testGetRegionJunctions" class="abra.JunctionUtilsTest"/>
+        <method signature="JunctionUtilsTest.testLoadJunctionsFromGtf()[pri:0, instance:abra.JunctionUtilsTest@2ed94a8b]" name="testLoadJunctionsFromGtf" class="abra.JunctionUtilsTest"/>
+        <method signature="MultiSamReaderTest.testReadTwoBams()[pri:0, instance:abra.MultiSamReaderTest@1324409e]" name="testReadTwoBams" class="abra.MultiSamReaderTest"/>
+        <method signature="ReAlignerOptionsTest.testBamParams()[pri:0, instance:abra.ReAlignerOptionsTest@67b64c45]" name="testBamParams" class="abra.ReAlignerOptionsTest"/>
+        <method signature="ReAlignerOptionsTest.testNoParams()[pri:0, instance:abra.ReAlignerOptionsTest@67b64c45]" name="testNoParams" class="abra.ReAlignerOptionsTest"/>
+        <method signature="ReadEvaluatorTest.testMapToMultipleContigsSynonymously()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testMapToMultipleContigsSynonymously" class="abra.ReadEvaluatorTest"/>
+        <method signature="ReadEvaluatorTest.testMultimapWithinContig()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testMultimapWithinContig" class="abra.ReadEvaluatorTest"/>
+        <method signature="ReadEvaluatorTest.testSelectBestAlignment()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSelectBestAlignment" class="abra.ReadEvaluatorTest"/>
+        <method signature="ReadEvaluatorTest.testSingleAlignmentSingleContig()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSingleAlignmentSingleContig" class="abra.ReadEvaluatorTest"/>
+        <method signature="ReadEvaluatorTest.testSingleAlignmentSingleContig_noImprovement()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSingleAlignmentSingleContig_noImprovement" class="abra.ReadEvaluatorTest"/>
+        <method signature="ReadEvaluatorTest.testSingleAlignmentSingleContig_reverseComplement()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSingleAlignmentSingleContig_reverseComplement" class="abra.ReadEvaluatorTest"/>
+        <method signature="RealignerTest.testCollapseRegions()[pri:0, instance:abra.RealignerTest@73f792cf]" name="testCollapseRegions" class="abra.RealignerTest"/>
+        <method signature="RealignerTest.testPairJunctions()[pri:0, instance:abra.RealignerTest@73f792cf]" name="testPairJunctions" class="abra.RealignerTest"/>
+        <method signature="RealignerTest.testPairJunctions_cannotAppearInSameContig()[pri:0, instance:abra.RealignerTest@73f792cf]" name="testPairJunctions_cannotAppearInSameContig" class="abra.RealignerTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatPeriod_HpRun()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_HpRun" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatPeriod_NoRepeat()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_NoRepeat" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatPeriod_NoRepeat1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_NoRepeat1" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatPeriod_Str1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_Str1" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatPeriod_Str2()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_Str2" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatPeriod_Str3()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_Str3" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_Homopolymer()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Homopolymer" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_NearHomopolymer1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearHomopolymer1" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_NearHomopolymer2()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearHomopolymer2" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_NearHomopolymer3()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearHomopolymer3" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_NearStr1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearStr1" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_SingleNt()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_SingleNt" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_Str1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Str1" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_Str2()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Str2" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="RepeatUtilsTest.testGetRepeatUnit_Str3()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Str3" class="abra.cadabra.RepeatUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testGetLeadingClips()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetLeadingClips" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testGetLeadingClips_empty()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetLeadingClips_empty" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testGetMappedReadPortion()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetMappedReadPortion" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testGetTrailingClips()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetTrailingClips" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testGetTrailingClips_empty()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetTrailingClips_empty" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testMergeSequences()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testMergeSequences_discordantMismatch()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_discordantMismatch" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testMergeSequences_multipleHeadHits()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_multipleHeadHits" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testMergeSequences_preferredMismatch()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_preferredMismatch" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testMergeSequences_tooManyMismatches()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_tooManyMismatches" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testRemoveSoftClips_withDeletionAndSoftClipAtEnd()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testRemoveSoftClips_withDeletionAndSoftClipAtEnd" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testRemoveSoftClips_withDeletionAndSoftClipAtStart()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testRemoveSoftClips_withDeletionAndSoftClipAtStart" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_deletion()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_deletion" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_exact()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_exact" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_lessThan1Elem()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThan1Elem" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_lessThan1Elem2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThan1Elem2" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_lessThan1Elem3()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThan1Elem3" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_lessThanFirstElem()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThanFirstElem" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_long()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_long" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_skipAndSpan1()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipAndSpan1" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_skipAndSpan2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipAndSpan2" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_skipElem()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipElem" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_skipElem2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipElem2" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanAll1()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll1" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanAll2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll2" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanAll3()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll3" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanAll4()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll4" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanElems1()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanElems1" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanElems2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanElems2" class="abra.SAMRecordUtilsTest"/>
+        <method signature="SAMRecordUtilsTest.testSubsetCigar_spanElems3()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanElems3" class="abra.SAMRecordUtilsTest"/>
+        <method signature="ScoredContigTest.testConvertAndFilter()[pri:0, instance:abra.ScoredContigTest@3d8c7aca]" name="testConvertAndFilter" class="abra.ScoredContigTest"/>
+        <method signature="SemiGlobalAlignerTest.testBigDel()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testBigDel" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testDelete()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testDelete" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testEndToEnd()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testEndToEnd" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testExactMatch()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testExactMatch" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testInsert()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testInsert" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testInsert2()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testInsert2" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testMismatches()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testMismatches" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SemiGlobalAlignerTest.testUnderflowBug()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testUnderflowBug" class="abra.SemiGlobalAlignerTest"/>
+        <method signature="SimpleMapperTest.testMapAmbiguousMatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapAmbiguousMatch" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testMapAmbiguousMatchWithMismatches()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapAmbiguousMatchWithMismatches" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testMapExact()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapExact" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testMapFiveMismatches()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapFiveMismatches" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testMapNoSeedMatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapNoSeedMatch" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testMapOneMismatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapOneMismatch" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testMapSixMismatchesIncreasedMismatchRate()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapSixMismatchesIncreasedMismatchRate" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testReverseComplement2Mismatches()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testReverseComplement2Mismatches" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testReverseComplementExact()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testReverseComplementExact" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testShortAmbiguousMatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testShortAmbiguousMatch" class="abra.SimpleMapperTest"/>
+        <method signature="SimpleMapperTest.testSimple1Mismatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testSimple1Mismatch" class="abra.SimpleMapperTest"/>
+      </group> <!-- unit -->
+    </groups>
+    <test name="Command line test" duration-ms="562" started-at="2017-10-14T12:20:53Z" finished-at="2017-10-14T12:20:53Z">
+      <class name="abra.FeatureTest">
+        <test-method status="PASS" signature="testOverlaps()[pri:0, instance:abra.FeatureTest@735f7ae5]" name="testOverlaps" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverlaps -->
+      </class> <!-- abra.FeatureTest -->
+      <class name="abra.SAMRecordUtilsTest">
+        <test-method status="PASS" signature="testGetLeadingClips_empty()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetLeadingClips_empty" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLeadingClips_empty -->
+        <test-method status="PASS" signature="testGetLeadingClips()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetLeadingClips" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLeadingClips -->
+        <test-method status="PASS" signature="testGetTrailingClips()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetTrailingClips" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTrailingClips -->
+        <test-method status="PASS" signature="testGetTrailingClips_empty()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetTrailingClips_empty" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTrailingClips_empty -->
+        <test-method status="PASS" signature="testGetMappedReadPortion()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testGetMappedReadPortion" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMappedReadPortion -->
+        <test-method status="PASS" signature="testMergeSequences()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSequences -->
+        <test-method status="PASS" signature="testMergeSequences_multipleHeadHits()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_multipleHeadHits" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSequences_multipleHeadHits -->
+        <test-method status="PASS" signature="testMergeSequences_discordantMismatch()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_discordantMismatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSequences_discordantMismatch -->
+        <test-method status="PASS" signature="testRemoveSoftClips_withDeletionAndSoftClipAtStart()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testRemoveSoftClips_withDeletionAndSoftClipAtStart" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveSoftClips_withDeletionAndSoftClipAtStart -->
+        <test-method status="PASS" signature="testRemoveSoftClips_withDeletionAndSoftClipAtEnd()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testRemoveSoftClips_withDeletionAndSoftClipAtEnd" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveSoftClips_withDeletionAndSoftClipAtEnd -->
+        <test-method status="PASS" signature="testMergeSequences_tooManyMismatches()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_tooManyMismatches" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSequences_tooManyMismatches -->
+        <test-method status="PASS" signature="testMergeSequences_preferredMismatch()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testMergeSequences_preferredMismatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeSequences_preferredMismatch -->
+        <test-method status="PASS" signature="testSubsetCigar_lessThanFirstElem()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThanFirstElem" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_lessThanFirstElem -->
+        <test-method status="PASS" signature="testSubsetCigar_lessThan1Elem3()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThan1Elem3" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_lessThan1Elem3 -->
+        <test-method status="PASS" signature="testSubsetCigar_exact()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_exact" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_exact -->
+        <test-method status="PASS" signature="testSubsetCigar_lessThan1Elem2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThan1Elem2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_lessThan1Elem2 -->
+        <test-method status="PASS" signature="testSubsetCigar_deletion()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_deletion" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_deletion -->
+        <test-method status="PASS" signature="testSubsetCigar_lessThan1Elem()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_lessThan1Elem" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_lessThan1Elem -->
+        <test-method status="PASS" signature="testSubsetCigar_long()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_long" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_long -->
+        <test-method status="PASS" signature="testSubsetCigar_skipAndSpan1()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipAndSpan1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_skipAndSpan1 -->
+        <test-method status="PASS" signature="testSubsetCigar_skipAndSpan2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipAndSpan2" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_skipAndSpan2 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanAll1()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanAll1 -->
+        <test-method status="PASS" signature="testSubsetCigar_skipElem()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipElem" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_skipElem -->
+        <test-method status="PASS" signature="testSubsetCigar_skipElem2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_skipElem2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_skipElem2 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanAll2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanAll2 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanElems2()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanElems2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanElems2 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanAll3()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll3" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanAll3 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanElems1()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanElems1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanElems1 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanElems3()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanElems3" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanElems3 -->
+        <test-method status="PASS" signature="testSubsetCigar_spanAll4()[pri:0, instance:abra.SAMRecordUtilsTest@4e04a765]" name="testSubsetCigar_spanAll4" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubsetCigar_spanAll4 -->
+      </class> <!-- abra.SAMRecordUtilsTest -->
+      <class name="abra.IndelShifterTest">
+        <test-method status="PASS" signature="testShiftCigarLeft_basic()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_basic" duration-ms="6" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftCigarLeft_basic -->
+        <test-method status="PASS" signature="testShiftCigarLeft_complex()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_complex" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftCigarLeft_complex -->
+        <test-method status="PASS" signature="testShiftCigarLeft_insertAtTail()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_insertAtTail" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftCigarLeft_insertAtTail -->
+        <test-method status="PASS" signature="testShiftCigarLeft_softClipping()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_softClipping" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftCigarLeft_softClipping -->
+        <test-method status="PASS" signature="testShiftCigarLeft_multipleIndels()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftCigarLeft_multipleIndels" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftCigarLeft_multipleIndels -->
+        <test-method status="PASS" signature="testShiftDelLeft()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftDelLeft" duration-ms="3" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftDelLeft -->
+        <test-method status="PASS" signature="testShiftIndelsLeft()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftIndelsLeft" duration-ms="28" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftIndelsLeft -->
+        <test-method status="PASS" signature="testShiftIndelsLeft_LocalRef()[pri:0, instance:abra.IndelShifterTest@5ebec15]" name="testShiftIndelsLeft_LocalRef" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShiftIndelsLeft_LocalRef -->
+      </class> <!-- abra.IndelShifterTest -->
+      <class name="abra.RealignerTest">
+        <test-method status="PASS" signature="testCollapseRegions()[pri:0, instance:abra.RealignerTest@73f792cf]" name="testCollapseRegions" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollapseRegions -->
+        <test-method status="PASS" signature="testPairJunctions()[pri:0, instance:abra.RealignerTest@73f792cf]" name="testPairJunctions" duration-ms="18" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPairJunctions -->
+        <test-method status="PASS" signature="testPairJunctions_cannotAppearInSameContig()[pri:0, instance:abra.RealignerTest@73f792cf]" name="testPairJunctions_cannotAppearInSameContig" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPairJunctions_cannotAppearInSameContig -->
+      </class> <!-- abra.RealignerTest -->
+      <class name="abra.ReadEvaluatorTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMapToMultipleContigsSynonymously()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testMapToMultipleContigsSynonymously" duration-ms="24" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapToMultipleContigsSynonymously -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSelectBestAlignment()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSelectBestAlignment" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBestAlignment -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMultimapWithinContig()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testMultimapWithinContig" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultimapWithinContig -->
+        <test-method status="PASS" signature="testSingleAlignmentSingleContig()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSingleAlignmentSingleContig" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleAlignmentSingleContig -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSingleAlignmentSingleContig_reverseComplement()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSingleAlignmentSingleContig_reverseComplement" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleAlignmentSingleContig_reverseComplement -->
+        <test-method status="PASS" signature="testSingleAlignmentSingleContig_noImprovement()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="testSingleAlignmentSingleContig_noImprovement" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingleAlignmentSingleContig_noImprovement -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:abra.ReadEvaluatorTest@180bc464]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- abra.ReadEvaluatorTest -->
+      <class name="abra.cadabra.RepeatUtilsTest">
+        <test-method status="PASS" signature="testGetRepeatPeriod_HpRun()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_HpRun" duration-ms="3" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatPeriod_HpRun -->
+        <test-method status="PASS" signature="testGetRepeatPeriod_NoRepeat()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_NoRepeat" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatPeriod_NoRepeat -->
+        <test-method status="PASS" signature="testGetRepeatPeriod_Str2()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_Str2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatPeriod_Str2 -->
+        <test-method status="PASS" signature="testGetRepeatPeriod_Str3()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_Str3" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatPeriod_Str3 -->
+        <test-method status="PASS" signature="testGetRepeatPeriod_Str1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_Str1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatPeriod_Str1 -->
+        <test-method status="PASS" signature="testGetRepeatPeriod_NoRepeat1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatPeriod_NoRepeat1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatPeriod_NoRepeat1 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_Homopolymer()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Homopolymer" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_Homopolymer -->
+        <test-method status="PASS" signature="testGetRepeatUnit_NearHomopolymer1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearHomopolymer1" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_NearHomopolymer1 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_NearHomopolymer2()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearHomopolymer2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_NearHomopolymer2 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_NearStr1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearStr1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_NearStr1 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_SingleNt()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_SingleNt" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_SingleNt -->
+        <test-method status="PASS" signature="testGetRepeatUnit_NearHomopolymer3()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_NearHomopolymer3" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_NearHomopolymer3 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_Str1()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Str1" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_Str1 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_Str3()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Str3" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_Str3 -->
+        <test-method status="PASS" signature="testGetRepeatUnit_Str2()[pri:0, instance:abra.cadabra.RepeatUtilsTest@2c6a3f77]" name="testGetRepeatUnit_Str2" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRepeatUnit_Str2 -->
+      </class> <!-- abra.cadabra.RepeatUtilsTest -->
+      <class name="abra.MultiSamReaderTest">
+        <test-method status="PASS" signature="testReadTwoBams()[pri:0, instance:abra.MultiSamReaderTest@1324409e]" name="testReadTwoBams" duration-ms="294" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadTwoBams -->
+      </class> <!-- abra.MultiSamReaderTest -->
+      <class name="abra.ScoredContigTest">
+        <test-method status="PASS" signature="testConvertAndFilter()[pri:0, instance:abra.ScoredContigTest@3d8c7aca]" name="testConvertAndFilter" duration-ms="4" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertAndFilter -->
+      </class> <!-- abra.ScoredContigTest -->
+      <class name="abra.cadabra.HomopolymerRunTest">
+        <test-method status="PASS" signature="testBasic()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testBasic" duration-ms="3" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasic -->
+        <test-method status="PASS" signature="testNone()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testNone" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNone -->
+        <test-method status="PASS" signature="testTrailing()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testTrailing" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrailing -->
+        <test-method status="PASS" signature="testLeading()[pri:0, instance:abra.cadabra.HomopolymerRunTest@783e6358]" name="testLeading" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeading -->
+      </class> <!-- abra.cadabra.HomopolymerRunTest -->
+      <class name="abra.SemiGlobalAlignerTest">
+        <test-method status="PASS" signature="testBigDel()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testBigDel" duration-ms="8" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBigDel -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testDelete" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testEndToEnd()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testEndToEnd" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndToEnd -->
+        <test-method status="PASS" signature="testExactMatch()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testExactMatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExactMatch -->
+        <test-method status="PASS" signature="testInsert2()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testInsert2" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert2 -->
+        <test-method status="PASS" signature="testInsert()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testInsert" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method status="PASS" signature="testMismatches()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testMismatches" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMismatches -->
+        <test-method status="PASS" signature="testUnderflowBug()[pri:0, instance:abra.SemiGlobalAlignerTest@17550481]" name="testUnderflowBug" duration-ms="45" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnderflowBug -->
+      </class> <!-- abra.SemiGlobalAlignerTest -->
+      <class name="abra.SimpleMapperTest">
+        <test-method status="PASS" signature="testMapAmbiguousMatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapAmbiguousMatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapAmbiguousMatch -->
+        <test-method status="PASS" signature="testMapExact()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapExact" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapExact -->
+        <test-method status="PASS" signature="testMapAmbiguousMatchWithMismatches()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapAmbiguousMatchWithMismatches" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapAmbiguousMatchWithMismatches -->
+        <test-method status="PASS" signature="testMapNoSeedMatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapNoSeedMatch" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapNoSeedMatch -->
+        <test-method status="PASS" signature="testMapFiveMismatches()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapFiveMismatches" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapFiveMismatches -->
+        <test-method status="PASS" signature="testMapSixMismatchesIncreasedMismatchRate()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapSixMismatchesIncreasedMismatchRate" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapSixMismatchesIncreasedMismatchRate -->
+        <test-method status="PASS" signature="testMapOneMismatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testMapOneMismatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMapOneMismatch -->
+        <test-method status="PASS" signature="testReverseComplementExact()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testReverseComplementExact" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseComplementExact -->
+        <test-method status="PASS" signature="testReverseComplement2Mismatches()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testReverseComplement2Mismatches" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseComplement2Mismatches -->
+        <test-method status="PASS" signature="testShortAmbiguousMatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testShortAmbiguousMatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShortAmbiguousMatch -->
+        <test-method status="PASS" signature="testSimple1Mismatch()[pri:0, instance:abra.SimpleMapperTest@246ae04d]" name="testSimple1Mismatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple1Mismatch -->
+      </class> <!-- abra.SimpleMapperTest -->
+      <class name="abra.CigarUtilsTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testBeyondMultipleIndels()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testBeyondMultipleIndels" duration-ms="7" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeyondMultipleIndels -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testCompare()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testCompare" duration-ms="3" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompare -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testDeletion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testDeletion" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletion -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testExactMatch()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testExactMatch" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExactMatch -->
+        <test-method status="PASS" signature="testInjectSplice()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInjectSplice" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectSplice -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testInjectSplices()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInjectSplices" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInjectSplices -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testExtendContig()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testExtendContig" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtendContig -->
+        <test-method status="PASS" signature="testInsertion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertion" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertion -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testInsertionAtStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertionAtStart" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertionAtStart -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testInsertionPartialOverlapAtEnd()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertionPartialOverlapAtEnd" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertionPartialOverlapAtEnd -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testMatchSubset()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testMatchSubset" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatchSubset -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testInsertionPartialOverlapAtStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testInsertionPartialOverlapAtStart" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertionPartialOverlapAtStart -->
+        <test-method status="PASS" signature="testReadBeyondDeletion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testReadBeyondDeletion" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadBeyondDeletion -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testMultipleIndels()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testMultipleIndels" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleIndels -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testSkipDeletionAtEnd()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipDeletionAtEnd" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipDeletionAtEnd -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testReadBeyondInsertion()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testReadBeyondInsertion" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadBeyondInsertion -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testSkipDeletionWithinStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipDeletionWithinStart" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipDeletionWithinStart -->
+        <test-method status="PASS" signature="testSkipDeletionAtStart()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipDeletionAtStart" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipDeletionAtStart -->
+        <test-method status="PASS" signature="testSkipInsertionAtEnd()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="testSkipInsertionAtEnd" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSkipInsertionAtEnd -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:abra.CigarUtilsTest@668bc3d5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- abra.CigarUtilsTest -->
+      <class name="abra.ReAlignerOptionsTest">
+        <test-method status="PASS" signature="testBamParams()[pri:0, instance:abra.ReAlignerOptionsTest@67b64c45]" name="testBamParams" duration-ms="34" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBamParams -->
+        <test-method status="PASS" signature="testNoParams()[pri:0, instance:abra.ReAlignerOptionsTest@67b64c45]" name="testNoParams" duration-ms="5" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoParams -->
+      </class> <!-- abra.ReAlignerOptionsTest -->
+      <class name="abra.JunctionUtilsTest">
+        <test-method status="PASS" signature="testCombineJunctions()[pri:0, instance:abra.JunctionUtilsTest@2ed94a8b]" name="testCombineJunctions" duration-ms="7" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCombineJunctions -->
+        <test-method status="PASS" signature="testGetRegionJunctions()[pri:0, instance:abra.JunctionUtilsTest@2ed94a8b]" name="testGetRegionJunctions" duration-ms="9" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRegionJunctions -->
+        <test-method status="PASS" signature="testLoadJunctionsFromGtf()[pri:0, instance:abra.JunctionUtilsTest@2ed94a8b]" name="testLoadJunctionsFromGtf" duration-ms="7" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadJunctionsFromGtf -->
+      </class> <!-- abra.JunctionUtilsTest -->
+      <class name="abra.ChromosomeRegexTest">
+        <test-method status="PASS" signature="testChr1()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testChr1" duration-ms="7" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChr1 -->
+        <test-method status="PASS" signature="testHg19Decoy()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testHg19Decoy" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHg19Decoy -->
+        <test-method status="PASS" signature="testChrX()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testChrX" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChrX -->
+        <test-method status="PASS" signature="testRandom()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testRandom" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRandom -->
+        <test-method status="PASS" signature="testUnplaced()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testUnplaced" duration-ms="1" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnplaced -->
+        <test-method status="PASS" signature="testHg19Gl()[pri:0, instance:abra.ChromosomeRegexTest@38082d64]" name="testHg19Gl" duration-ms="0" started-at="2017-10-14T20:20:53Z" finished-at="2017-10-14T20:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHg19Gl -->
+      </class> <!-- abra.ChromosomeRegexTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

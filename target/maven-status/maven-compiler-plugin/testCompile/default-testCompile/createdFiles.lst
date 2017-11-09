@@ -1,0 +1,15 @@
+abra/CigarUtilsTest.class
+abra/JunctionUtilsTest.class
+abra/FeatureTest.class
+abra/ChromosomeRegexTest.class
+abra/IndelShifterTest.class
+abra/SemiGlobalAlignerTest.class
+abra/cadabra/RepeatUtilsTest.class
+abra/ReAlignerOptionsTest.class
+abra/SimpleMapperTest.class
+abra/MultiSamReaderTest.class
+abra/ReadEvaluatorTest.class
+abra/ScoredContigTest.class
+abra/cadabra/HomopolymerRunTest.class
+abra/SAMRecordUtilsTest.class
+abra/RealignerTest.class
